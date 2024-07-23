@@ -1,0 +1,4 @@
+record-type: TXT
+comment: ''
+name: gbsw.hs.kr
+content: v=spf1 include:_spf.mx.cloudflare.net ~all

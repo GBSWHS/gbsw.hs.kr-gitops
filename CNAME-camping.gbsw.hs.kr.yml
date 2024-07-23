@@ -1,0 +1,5 @@
+record-type: CNAME
+comment: ''
+name: camping.gbsw.hs.kr
+target: d3anh3wnevf3gg.cloudfront.net
+cloudflare: false

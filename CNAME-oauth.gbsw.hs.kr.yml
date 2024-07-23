@@ -1,0 +1,5 @@
+record-type: CNAME
+comment: ''
+name: oauth.gbsw.hs.kr
+target: 51c21c720f-hosting.gitbook.io
+cloudflare: false

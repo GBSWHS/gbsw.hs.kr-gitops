@@ -1,0 +1,5 @@
+record-type: A
+comment: ''
+name: bus.gbsw.hs.kr
+ip: 13.125.31.223
+cloudflare: true

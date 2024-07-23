@@ -1,0 +1,5 @@
+record-type: CNAME
+comment: ''
+name: _699dd4e740e47a11fa57e629511586a5.tour.gbsw.hs.kr
+target: _d7ec4258e3b6e480655f2ec1498468f9.crxktfrmng.acm-validations.aws
+cloudflare: false

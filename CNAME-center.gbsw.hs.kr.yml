@@ -1,0 +1,5 @@
+record-type: CNAME
+comment: ''
+name: center.gbsw.hs.kr
+target: d1nmgighcya6ei.cloudfront.net
+cloudflare: false

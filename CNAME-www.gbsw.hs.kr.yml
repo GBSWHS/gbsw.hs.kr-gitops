@@ -1,0 +1,5 @@
+record-type: CNAME
+comment: ''
+name: www.gbsw.hs.kr
+target: gbsw.hs.kr
+cloudflare: false

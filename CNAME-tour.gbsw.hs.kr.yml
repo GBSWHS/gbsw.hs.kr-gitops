@@ -1,0 +1,5 @@
+record-type: CNAME
+comment: ''
+name: tour.gbsw.hs.kr
+target: d3fqr82aincjvz.cloudfront.net
+cloudflare: false

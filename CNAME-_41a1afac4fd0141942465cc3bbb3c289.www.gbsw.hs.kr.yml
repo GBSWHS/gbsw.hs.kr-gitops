@@ -1,0 +1,5 @@
+record-type: CNAME
+comment: ''
+name: _41a1afac4fd0141942465cc3bbb3c289.www.gbsw.hs.kr
+target: _773c7eed0d918e1d514fd9d067825f04.mybbdzzyvz.acm-validations.aws
+cloudflare: false

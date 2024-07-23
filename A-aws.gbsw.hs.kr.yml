@@ -1,0 +1,5 @@
+record-type: A
+comment: ''
+name: aws.gbsw.hs.kr
+ip: 8.8.8.8
+cloudflare: true

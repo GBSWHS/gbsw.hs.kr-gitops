@@ -1,0 +1,5 @@
+record-type: CNAME
+comment: ''
+name: _acd9e361d0ab589441df606e09d3ef79.camping.gbsw.hs.kr
+target: _80c97037b8351fcaa63b26796789e8c1.rdnyqppgxp.acm-validations.aws
+cloudflare: false

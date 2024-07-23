@@ -1,0 +1,5 @@
+record-type: CNAME
+comment: ''
+name: at.gbsw.hs.kr
+target: school-mail-registrar.pages.dev
+cloudflare: true
