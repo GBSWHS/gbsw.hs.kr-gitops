@@ -25,7 +25,7 @@ check_prerequirements() {
 
 find_once_records() {
   local page=$1
-  local per_page=5
+  local per_page=100
 
   local api_response=$(
     curl "$ORIGIN_URL/zones/$ZONE_ID/dns_records?page=$page&per_page=$per_page" \
