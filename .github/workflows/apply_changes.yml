@@ -1,0 +1,19 @@
+name: Apply DNS Changes
+
+on:
+  push:
+  workflow_dispatch:
+  schedule:
+  - cron: "*/5 * * * *"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          wget https://github.com/mikefarah/yq/releases/download/v4.44.3/yq_linux_amd64 -O /usr/bin/yq
+          chmod +x /usr/bin/yq
+      - run: |
+          chmod +x ./utils/apply_changes.sh
+          ./utils/apply_changes.sh ${{ secrets.CF_TOKEN }} ${{ secrets.CF_ZONE }}
