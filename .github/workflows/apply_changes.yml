@@ -14,8 +14,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: |
-          sudo wget https://github.com/mikefarah/yq/releases/download/v4.44.3/yq_linux_amd64 -O /usr/bin/yq
-          sudo chmod a+x /usr/bin/yq
+          sudo pip install yq
       - run: |
           chmod +x ./utils/apply_changes.sh
           ./utils/apply_changes.sh ${{ secrets.CF_TOKEN }} ${{ secrets.CF_ZONE }}
